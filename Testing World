@@ -1,5 +1,8 @@
 <html>
-<head>
-what
-</head>
+  <head>
+    what
+  </head>
+  <body>
+    <div id="chart_div"></div>
+  </body>
 </html>
