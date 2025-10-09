@@ -33,7 +33,7 @@
 
 	<!DOES NOT WORK>
 	
-	<script type=”text/javascript” src=https://cloud.google.com/looker/docs/scatter-options></script>
+	<script type=”text/javascript” src=https://developers.google.com/chart/interactive/docs/gallery/scatterchart></script>
     
     <script type="text/javascript">
     <div id="chart_div"></div>
