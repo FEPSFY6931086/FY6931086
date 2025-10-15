@@ -66,14 +66,14 @@
     </p>
     <hr>
 
-    <h3 id="Introduction">Introduction</h3>
+    <h3 id="Introduction_InText">Introduction</h3>
     <p>
     <pre>
       Introduction Text
     </pre>
     </p>
 
-    <h3 id="Analysis and discussion">Analysis and discussion</h3>
+    <h3 id="Analysis_InText">Analysis and discussion</h3>
     <p>
     <pre>
     	Ananysis & Discussion Text
@@ -90,6 +90,7 @@
 
     <!alphabetical by surname>
     <!(if no date)>
+    <!multiple authors. et al>
     <h3 id="References">References</h3>
     <p>
     <pre>
@@ -109,6 +110,7 @@
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
   <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
+  <hr>
     <!-- Last commit time display -->
 <div id="last-updated">Loading last update time...</div>
 <!-- Verify Button -->
