@@ -195,6 +195,7 @@
   window.onload = displayTotalWordCount;
 </script>
 
+<p id="IntroductionCount"></p>
 <script>
     function displayIntroductionCount(sectionId, outputId) {
   const text = document.getElementById(sectionId).textContent;
@@ -210,6 +211,7 @@
   
 </script>
 
+<p id="AnalysisCount"></p>
 <script>
   function displayAnalysisCount(sectionId, outputId) {
   const text = document.getElementById(sectionId).textContent;
