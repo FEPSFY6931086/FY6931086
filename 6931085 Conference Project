@@ -66,17 +66,21 @@
     </p>
     <hr>
 
-    <h3 id="Introduction_InText">Introduction</h3>
+    <h3 id="Introduction">Introduction</h3>
     <p>
     <pre>
+    <h3 id="Introduction_InText">
       Introduction Text
+  	</h3>
     </pre>
     </p>
 
-    <h3 id="Analysis_InText">Analysis and discussion</h3>
+    <h3 id="Analysis and discussion">Analysis and discussion</h3>
     <p>
     <pre>
+    <h3 id="Analysis_InText">
     	Ananysis & Discussion Text
+    </h3>
     </pre>
     </p>
     
