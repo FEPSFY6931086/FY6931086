@@ -166,8 +166,8 @@
   <!-- ////////////////////////////// Word count function ////////////////////////////// -->
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
 <!-- Placeholder for total word count -->
-<p id="totalWordCount"></p>
 <hr>
+<p id="totalWordCount"></p>
 <script>
   // Function to calculate and display word count for a specified section
   function displayWordCount(sectionId, outputId) {
@@ -195,38 +195,8 @@
   window.onload = displayTotalWordCount;
 </script>
 
-<p id="IntroductionCount"></p>
-<script>
-    function displayIntroductionCount(sectionId, outputId) {
-  const text = document.getElementById(sectionId).textContent;
-  const wordArray = text.trim().split(/\s+/);
-  const wordCount = wordArray.length;
-  return wordCount;
-  }
-  
-  function displayIntroductionCount() {
-  	const IntroductionCount = displayWordCount("Introduction_InText");
-    document.getElementById("IntroductionCount").innerText = `Introduction count: ${IntroductionCount}`;
-  }
-  
-</script>
 
-<p id="AnalysisCount"></p>
-<script>
-  function displayAnalysisCount(sectionId, outputId) {
-  const text = document.getElementById(sectionId).textContent;
-  const wordArray = text.trim().split(/\s+/);
-  const wordCount = wordArray.length;
-  return wordCount;
-  }
 
-  function displayAnalysisCount() {
-  	const AnalysisCount = displayWordCount("Analysis_InText");
-    document.getElementById("AnalysisCount").innerText = `Analysis count: ${AnalysisCount}`;
-  }
-  
-  window.onload = displayIntroductionCount;
-</script>
-
+<hr>
   </body>
 </html>
