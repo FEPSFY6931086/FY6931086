@@ -180,6 +180,7 @@
     // Return the word count for summing purposes
     return wordCount;
   }
+
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
@@ -192,6 +193,37 @@
   }
   // Run the function for specific sections and display total count when the page loads
   window.onload = displayTotalWordCount;
+</script>
+
+<script>
+    function displayIntroductionCount(sectionId, outputId) {
+  const text = document.getElementById(sectionId).textContent;
+  const wordArray = text.trim().split(/\s+/);
+  const wordCount = wordArray.length;
+  return wordCount;
+  }
+  
+  function displayIntroductionCount() {
+  	const IntroductionCount = displayWordCount("Introduction_InText");
+    document.getElementById("IntroductionCount").innerText = `Introduction count: ${IntroductionCount}`;
+  }
+  
+</script>
+
+<script>
+  function displayAnalysisCount(sectionId, outputId) {
+  const text = document.getElementById(sectionId).textContent;
+  const wordArray = text.trim().split(/\s+/);
+  const wordCount = wordArray.length;
+  return wordCount;
+  }
+
+  function displayAnalysisCount() {
+  	const AnalysisCount = displayWordCount("Analysis_InText");
+    document.getElementById("AnalysisCount").innerText = `Analysis count: ${AnalysisCount}`;
+  }
+  
+  window.onload = displayIntroductionCount;
 </script>
 
   </body>
