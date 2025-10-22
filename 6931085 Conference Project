@@ -180,7 +180,7 @@
     const IntroductionCount = displayWordCount("Introduction_InText");
     const AnalysisCount = displayWordCount("Analysis_InText");
     const totalWordCount = IntroductionCount + AnalysisCount;
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+    document.getElementById("totalWordCount").innerText = `Introduction and Analysis word count: ${totalWordCount}`;
   }
   window.onload = displayTotalWordCount;
 </script>
