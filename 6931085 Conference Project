@@ -48,7 +48,7 @@
      	<td><a href="#Abstract">Abstract</td>
     </tr>
     <tr>
-    	<td><a href="#Introduction">Introduction<itd>
+    	<td><a href="#Introduction">Introduction</td>
     </tr>
     <tr>
     	<td><a href="#Analysis and discussion">Analysis and discussion</td>
@@ -57,6 +57,8 @@
     	<td><a href="#References">References</td>
     </tr>
     </table>
+    
+    <!TEXT>
     
     <h3 id="Abstract">Abstract</h3>
     <p class="ex1">
@@ -67,20 +69,20 @@
     <hr>
 
     <h3 id="Introduction">Introduction</h3>
-    <p>
+    <p class="ex1">
     <pre>
-    <h3 id="Introduction_InText">
+    <h id="Introduction_InText">
       Introduction Text
-  	</h3>
+      </h>
     </pre>
     </p>
 
     <h3 id="Analysis and discussion">Analysis and discussion</h3>
-    <p>
+    <p class="ex1">
     <pre>
-    <h3 id="Analysis_InText">
+    <h id="Analysis_InText">
     	Ananysis & Discussion Text
-    </h3>
+    </h>
     </pre>
     </p>
     
@@ -194,8 +196,6 @@
   // Run the function for specific sections and display total count when the page loads
   window.onload = displayTotalWordCount;
 </script>
-
-
 
 <hr>
   </body>
