@@ -78,10 +78,10 @@
         urban areas influence air quality ("it is prevalent in cities all over the world" <a href="https://www.clarity.io/blog/a-deep-dive-on-smog">Fiona Green, (2025).)</a>. 
         Tall buildings (especially in series) diverge the air around them in a way that creates a circulating air 
         current on the back face ("it drives the air into the bottom of the model, forming a comparative weak 
-        vortex" <a href="https://libkey.io/libraries/2269/articles/201255841/full-text-file?utm_source=api_1143&allow_speedbump=true">Dan Mei. el al, (2018).</a>), this partial vacuum creates little to no air flow between buildings so 
-        pollutants diffuse into the atmosphere slower, which could potentially cause smog as it is more likely to 
-        appear with higher exposure to sunlight ("Sunlight causes volatile organic compounds to react with nitrogen 
-        oxides to form ground-level ozone" <a href="https://www.clarity.io/blog/a-deep-dive-on-smog">Fiona Green, (2025).</a>).
+        vortex" <a href="https://libkey.io/libraries/2269/articles/201255841/full-text-file?utm_source=api_1143&allow_speedbump=true">Dan Mei. el al, (2018).</a>), this vortex is too weak to reach the streat from most tall buildings so 
+        pollutants diffuse into the atmosphere slower and linger up to 10m above ground, which could potentially 
+        cause smog as it is more likely to appear with higher exposure to sunlight ("Sunlight causes volatile 
+        organic compounds to react with nitrogen oxides to form ground-level ozone" <a href="https://www.clarity.io/blog/a-deep-dive-on-smog">Fiona Green, (2025).</a>).
       </h>
     </pre>
     </p>
