@@ -85,7 +85,7 @@
       </h>
     </pre>
     </p>
-	<!flat top, regressing bad, spacious, fig3/>
+	<!spacious tops, even grid bottoms/>
     <h3 id="Analysis and discussion">Analysis and discussion</h3>
     <p class="ex1">
     <pre>
@@ -99,7 +99,14 @@
         new air at lower hights, this is because more buildings are able to interfere with the wind, and as the 
         wind can be modeled as a fluid, the area arround the interference is effected less (but still noticeably), 
         therefore the other buildings would still experience airflow. 
+        A level hight arrangement is able to have some airflow between the buildings due to the same phenomenon 
+        as your car humming with open windows on the motorway, however this is barely effective due to the hight
+        of the buildings. An even worse layout of buildings is in decending order facing the wind, this is 
+        because the tallest building shields the others from the wind so no vortexes are able to be formed 
+        and the air between the building would be mostly still.
         
+        <b>Layout Solution</b>
+        Using figure 3 we can see that a 
     </h>
     </pre>
     </p>
