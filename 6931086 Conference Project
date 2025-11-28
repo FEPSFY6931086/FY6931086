@@ -85,7 +85,7 @@
       </h>
     </pre>
     </p>
-
+	<!flat top, regressing bad, spacious, fig3/>
     <h3 id="Analysis and discussion">Analysis and discussion</h3>
     <p class="ex1">
     <pre>
@@ -96,7 +96,10 @@
     	factor that contributes to the pollution residue at street level as winds struggle with reaching the 
     	bottom of buildings and spread greenhouse gasses away from the city. Figure 1 shows how arranging the 
         buildings in accending order from the direction of the wind could help increase the availability of 
-        new air at lower hights, 
+        new air at lower hights, this is because more buildings are able to interfere with the wind, and as the 
+        wind can be modeled as a fluid, the area arround the interference is effected less (but still noticeably), 
+        therefore the other buildings would still experience airflow. 
+        
     </h>
     </pre>
     </p>
